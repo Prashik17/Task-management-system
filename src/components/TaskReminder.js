@@ -73,7 +73,7 @@ const TaskReminder = () => {
                 {Task.afternoon && 'Afternoon '}
                 {Task.night && 'Night'}
               </span>
-              <button className='takenbtn' onClick={() => handleTaskTaken(Task.id)}>incomplete</button>
+              <button className='takenbtn' onClick={() => handleTaskTaken(Task.id)}>Completed</button>
             </li>
           ))}
         </ul>
