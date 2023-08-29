@@ -1,0 +1,70 @@
+.add-Task-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #fc0303;
+    border-radius: 8px;
+    background-color: #0e0e0e;
+    box-shadow:5px 10px 10px #0b0b0b;
+
+  }
+  
+  .add-Task-container h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .add-Task-container form label {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-Task-container form input,
+  .add-Task-container form select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-Task-container form .time-checkboxes {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .add-Task-container form button {
+    margin-top: 20px;
+    margin-left: 180px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-Task-container form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-Task-container form button:focus {
+    outline: none;
+  }
+  
+  /* Additional styles for the dropdown select */
+  /* .add-Task-container form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px 12px;
+    padding-right: 30px;
+  } */
+
+  
+  
